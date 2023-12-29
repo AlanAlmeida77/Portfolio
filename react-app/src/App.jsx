@@ -1,13 +1,11 @@
+import Nav from "./Components/Nav"
+import './index.css'
 
-
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div className="bg-slate-900">
-        <h1>React App</h1>
-      </div>
-    </>
+    <div className = "bg-slate-900">
+      <Nav />
+    </div>
   )
 }
 
