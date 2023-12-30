@@ -22,7 +22,7 @@ const Banner = () => {
                         </div>
                     </div>
             </div>
-            <img src={img} width={290} height={290} className="rounded-full" alt="profile_pic" />
+            <img src={img} width={290} height={290} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" alt="profile_pic" />
         </div>
     );
 };
