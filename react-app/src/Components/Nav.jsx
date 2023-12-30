@@ -7,7 +7,7 @@ const Nav = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const content = <>
-        <div className = "lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
+        <div className = "lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition  text-white">
             <ul className = "text-center text-x1 p-20">
                 <Link  spy={true} smooth={true} to= "Home">
                     <li  className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800">Home</li>
@@ -20,7 +20,7 @@ const Nav = () => {
                 </Link>
                 <Link  spy={true} smooth={true} to= "Projects">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Projects</li>
-                </Link> spy={true} smooth={true} 
+                </Link> 
                 <Link to= "Contact">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
                 </Link>
@@ -58,7 +58,7 @@ const Nav = () => {
                 <div>
                         {click && content}
                 </div>
-                <button className =" fixed top-4 right-4 sm:hidden transition" onClick={handleClick}>
+                <button className ="  text-white fixed top-4 right-4 sm:hidden transition" onClick={handleClick}>
                     {click ? <FaTimes/> : <CiMenuFries/> }
                 </button>
         </nav>
