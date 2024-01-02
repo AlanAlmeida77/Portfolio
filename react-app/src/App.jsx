@@ -1,6 +1,7 @@
 import About from "./Components/About"
 import Banner from "./Components/Banner"
 import Nav from "./Components/Nav"
+import Services from "./Components/Services"
 import './index.css'
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Nav />
       <Banner />
       <About />
+      <Services />
     </div>
   )
 }
