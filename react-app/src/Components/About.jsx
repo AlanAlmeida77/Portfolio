@@ -4,7 +4,7 @@ import img from "../assets/foto_perfil.jpg"
 
 const About = () => {
     return (
-            <div id ="About" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+            <div id ="About" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
             <img data-aos='fade-down' src={img} width={290} height={290} className=" border-2 p-1 border-fuchsia-500 img_glow" alt="profile_pic" />
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
                 <h1 data-aos='fade-right' className="text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase">About me</h1>
