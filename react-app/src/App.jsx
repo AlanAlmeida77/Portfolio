@@ -4,6 +4,7 @@ import Nav from "./Components/Nav"
 import Projects from "./Components/Projects"
 import Services from "./Components/Services"
 import Contact from "./Components/Contact"
+import Footer from "./Components/Footer";
 import './index.css'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }
