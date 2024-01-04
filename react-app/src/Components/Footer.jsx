@@ -9,7 +9,7 @@ const Footer = () => {
                     <span className="text-3x1 font-semibold text-fuchsia-800 py-2 uppercase">Logo</span>
                     <p className="text-[16px] my-4">dasda fasrw  fdg  rfasda sadasd asd asdawd a sd ad asda w ad aw dadas daw a das daw dasd as asdas daf awfraw</p>
                 </div>
-                <div>
+                <div className="mb-4 md:mb-0">
                     <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Services</h2>
                     <ul className="text-[16px] my-4">
                         <li className="my-2">Full-Stack Web Development</li>
@@ -21,13 +21,12 @@ const Footer = () => {
                     <p className="text-[16px] my-4">Email: davidalanalmeida@gmail.com</p>
                     <p className="text-[16px] my-4">Phone: +54 9 3435 23-0536 </p>
                 </div>
-                <div>
-                    <div className="flex-space-x-4">
+                    <div className="mb-4 md:mb-0">
                         <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Follow me</h2>
-                        <a className="text-white hover hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href=""> <FaGithub/></a>
-                        <a className="text-white hover hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href=""> <FaLinkedinIn/></a>
+                        <a className="text-white hover hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href="https://github.com/AlanAlmeida77"> <FaGithub/></a>
+                        <a className="text-white hover hover:text-fuchsia-800 transition-all duration-150 ease-in-out" href="https://www.linkedin.com/in/alan-almeida77/"> <FaLinkedinIn/></a>
                     </div>
-                </div>
+                
             </div>
         </footer>
     )
