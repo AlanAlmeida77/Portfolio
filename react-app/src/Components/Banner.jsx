@@ -11,7 +11,7 @@ const Banner = () => {
             delay: 0,
             duration: 750
         })
-    },[1000])
+    },[])
     return (
         <div data-aos='fade-up' className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
@@ -20,10 +20,10 @@ const Banner = () => {
                     <div className="flex mt-8 gap-2">
                         <div className="flex items-center justify-center">
                             <div className="flex space-x-2">
-                                <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                                <a href="https://github.com/AlanAlmeida77" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                     <AiFillGithub className="text-[28px]" />
                                 </a>
-                                <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                                <a href="https://www.linkedin.com/in/alan-almeida77/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                                     <FaLinkedinIn className="text-[28px]" />
                                 </a>
 
