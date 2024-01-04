@@ -12,7 +12,9 @@ const About = () => {
                     <div className="flex mt-8 gap-2">
                         <div className="flex items-center justify-center">
                             <div className="flex space-x-2">
+                                <a href="https://drive.google.com/file/d/1fOIe2XE43JTclnIoYf1--s4DDcF3jCmI/view?usp=sharing" download={"cv"}>
                                 <button className="neno-button shadow-x1 hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden">Download CV</button>
+                                </a>
                             </div>
                         </div>
                     </div>
