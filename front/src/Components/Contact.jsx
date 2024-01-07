@@ -1,23 +1,22 @@
 import { useState } from 'react';
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
+    const initialFormData = {
         name: '',
         email: '',
         content: '',
-    });
+    };
 
+    const [formData, setFormData] = useState(initialFormData);
     const [messageSent, setMessageSent] = useState(false);
     const [error, setError] = useState(null);
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
-        console.log('formData:', formData);
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Submitting formData:', formData);
 
         try {
             const response = await fetch('http://localhost:3001/crud/messages', {
@@ -30,6 +29,7 @@ const Contact = () => {
 
             if (response.ok) {
                 setMessageSent(true);
+                setFormData(initialFormData); // Restablecer campos del formulario
             } else {
                 console.error('Failed to send message');
                 setError('Failed to send message');
