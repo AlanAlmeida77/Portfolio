@@ -20,7 +20,7 @@ const Contact = () => {
         console.log('Submitting formData:', formData);
 
         try {
-            const response = await fetch('http://localhost:5432/crud/messages', {
+            const response = await fetch('http://localhost:3001/crud/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
