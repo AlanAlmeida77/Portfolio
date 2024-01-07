@@ -1,4 +1,4 @@
-const { sequelize, Message } = require('../index');
+const { sequelize, Message } = require('../db');
 
 const createMessage = async (req, res) => {
     try {
