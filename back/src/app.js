@@ -11,6 +11,7 @@ server.name = 'back';
 
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 server.use(bodyParser.json({ limit: '50mb' }));
+server.use(express.json());
 server.use(cookieParser());
 server.use(morgan('dev'));
 server.use((req, res, next) => {
@@ -22,6 +23,8 @@ server.use((req, res, next) => {
 });
 
 server.use('/crud', require('./routes/messageRoute.js'));
+server.use('/crud', require('./routes/getMessageRoute'));
+server.use('/crud', require('./routes/deleteMessageRoute.js'))
 
 // Error catching endware.
 server.use((err, req, res, next) => {
