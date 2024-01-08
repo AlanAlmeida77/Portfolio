@@ -3,6 +3,7 @@ import {Link} from "react-scroll";
 import {FaTimes} from "react-icons/fa";
 import {CiMenuFries} from "react-icons/ci";
 
+
 const Nav = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -50,6 +51,9 @@ const Nav = () => {
                 </Link>
                 <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "Contact">
                     <li>Contact</li>
+                </Link>
+                <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "Contact">
+                    <li>Admin</li>
                 </Link>
             </ul>
                     </div>

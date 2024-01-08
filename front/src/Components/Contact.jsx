@@ -45,8 +45,8 @@ const Contact = () => {
             <h1 data-aos="fade-left" className="text-[52px] font-semibold mb-20 leading-normal uppercase text-fuchsia-500">
                 contact me
             </h1>
-            {messageSent && <p className="text-green-500 mb-4">Your message was sent successfully!</p>}
-            {error && <p className="text-red-500 mb-4">{error}</p>}
+            {messageSent && <p className="text-green-500 mb-4 font-semibold">Your message was sent successfully!</p>}
+            {error && <p className="text-red-500 mb-4 font-semibold">{error}</p>}
             <form onSubmit={handleSubmit} className="flex flex-col gap-2 lg:w-1/2">
                 <div className="lg:flex gap-6">
                     <input
