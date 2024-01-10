@@ -11,6 +11,8 @@ const createMessage = async (req, res) => {
 
         const { name, email, content } = req.body;
         const newMessage = await Message.create({ name, email, content });
+
+        // Solución: Enviar la respuesta después de la creación exitosa del mensaje
         res.json(newMessage);
     } catch (error) {
         console.error('Error creating message:', error);

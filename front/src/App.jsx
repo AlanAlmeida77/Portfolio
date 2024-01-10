@@ -8,7 +8,7 @@ import Footer from "./Components/Footer";
 import './index.css'
 import { useEffect, useState } from "react"
 import { BallTriangle } from "react-loader-spinner"
-import Admin from "./Components/Admin"
+
 
 const App = () => {
     const [loading, setLoading] = useState(false);
@@ -43,7 +43,6 @@ const App = () => {
           <Services />
           <Projects />
           <Contact />
-          <Admin />
           <Footer />
         </div>
         }

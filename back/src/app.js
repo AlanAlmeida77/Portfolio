@@ -23,8 +23,7 @@ server.use((req, res, next) => {
 });
 
 server.use('/crud', require('./routes/messageRoute.js'));
-server.use('/crud', require('./routes/getMessageRoute'));
-server.use('/crud', require('./routes/deleteMessageRoute.js'))
+server.use('/', require('./routes/sendEmailRoute'));
 
 // Error catching endware.
 server.use((err, req, res, next) => {
