@@ -9,10 +9,11 @@ const Services = () => {
                     <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >Javascript</h2>
                     <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >Typescript</h2>
                     <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >React</h2>
-                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >NextJS</h2>
-                    <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >PostgreSQL</h2>
-                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >MongoDB</h2>
-
+                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >Tailwind</h2>
+                    <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >NextJS</h2>
+                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow" >PostgreSQL</h2>
+                    <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >MongoDB</h2>
+                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >NodeJS</h2>
                 </div>
         </div>
     )
