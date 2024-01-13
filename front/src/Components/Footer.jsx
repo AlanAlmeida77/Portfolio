@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="mb-4 md:mb-0">
                     <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Contact</h2>
                     <p className="text-[16px] my-4">davidalanalmeida@gmail.com</p>
-                    <p className="text-[16px] my-4">+54 9 3435 23-0536 </p>
+                    <p className="text-[16px] my-4">+54 9 3435 23-0536</p>
                 </div>
                     <div className="mb-4 md:mb-0">
                         <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Follow me</h2>
