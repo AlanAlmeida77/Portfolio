@@ -3,7 +3,6 @@ import Banner from "./Components/Banner"
 import Nav from "./Components/Nav"
 import Projects from "./Components/Projects"
 import Services from "./Components/Services"
-import Contact from "./Components/Contact"
 import Footer from "./Components/Footer";
 import './index.css'
 import { useEffect, useState } from "react"
@@ -42,7 +41,6 @@ const App = () => {
           <About />
           <Services />
           <Projects />
-          <Contact />
           <Footer />
         </div>
         }
