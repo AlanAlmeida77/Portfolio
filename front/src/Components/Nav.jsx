@@ -10,9 +10,6 @@ const Nav = () => {
     const content = <>
         <div className = "lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition  text-white">
             <ul className = "text-center text-x1 p-20">
-                <Link  spy={true} smooth={true} to= "Home">
-                    <li  className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800">Home</li>
-                </Link>
                 <Link  spy={true} smooth={true} to= "About">
                     <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
                 </Link>
