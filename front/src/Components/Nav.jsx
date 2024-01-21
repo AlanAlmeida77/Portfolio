@@ -31,9 +31,6 @@ const Nav = () => {
                 <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
                     <div className ="flex-10">
                     <ul className ="flex gap-8 mr-16 text-[18px]">
-                <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "Home">
-                    <li>Home</li>
-                </Link>
                 <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "About">
                     <li>About</li>
                 </Link>
@@ -42,9 +39,6 @@ const Nav = () => {
                 </Link>
                 <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "Projects">
                     <li>Projects</li>
-                </Link>
-                <Link className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer" spy={true} smooth={true} to= "Contact">
-                    <li>Contact</li>
                 </Link>
                     </ul>
                     </div>
