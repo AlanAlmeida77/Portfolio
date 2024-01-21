@@ -6,6 +6,10 @@ import ReactJSlogo from '../logos/ReactJS.svg';
 import Tailwindlogo from '../logos/Tailwind.svg';
 import NextJSlogo from '../logos/NextJS.svg';
 import PostregsSQLlogo from '../logos/PostgresSQL.svg';
+import MongoDBlogo from '../logos/MongoDB.svg';
+import NodeJSlogo from '../logos/NodeJS.svg';
+import FirebaseLogo from '../logos/Firebase.svg';
+import SQLlogo from '../logos/sql.svg';
 
 const Services = () => {
     return (
@@ -20,10 +24,10 @@ const Services = () => {
                 <img data-aos="fade-down" src={Tailwindlogo} alt="Tailwind logo" className="h-36 w-44" />
                 <img data-aos="fade-up" src={NextJSlogo} alt="NextJS logo" className="h-36 w-44" />
                 <img data-aos="fade-down" src={PostregsSQLlogo} alt="Postgres logo" className="h-36 w-44" />
-                    <h2 data-aos="fade-up" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >MongoDB</h2>
-                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >NodeJS</h2>
-                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >Firebase</h2>
-                    <h2 data-aos="fade-down" className="text-[26px] flex items-center justify-center font-semibold text-fuchsia-800 rounded-lg h-36 w-44 border-2 border-fuchsia-800 b_glow " >SQL</h2>
+                <img data-aos="fade-up" src={MongoDBlogo} alt="MongoDB logo" className="h-36 w-44" />
+                <img data-aos="fade-down" src={NodeJSlogo} alt="NodeJS logo" className="h-36 w-44" />
+                <img data-aos="fade-up" src={FirebaseLogo} alt="Firebase logo" className="h-36 w-44" />
+                <img data-aos="fade-down" src={SQLlogo} alt="SQL logo" className="h-36 w-44" />
                 </div>
         </div>
     )
