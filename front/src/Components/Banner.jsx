@@ -13,9 +13,11 @@ const Banner = () => {
         })
     },[])
     return (
-        <div data-aos='fade-up' className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+                                            //lg:px-56 px-10 lg:py-0 py-20 text-center lg:text-left gap-5 lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center
+        <div data-aos='fade-up' className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-left flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white ">
-                <h1 data-aos='fade-right' className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome to <span className="text-fuchsia-500">My website</span></h1>
+                <h1 data-aos='fade-right' className=" text-4xl lg:text-[50px] font-semibold mb-2 lg:mb-8 leading-normal uppercase">Welcome to <span className="text-fuchsia-500">My website</span></h1>
+                <h2 data-aos='fade-right' className="text-xl lg:text-[20px] font-semibold mb-8 uppercase">Full-Stack/Front-end developer</h2>
                     <div className="flex mt-8 gap-2">
                         <div className="flex items-center justify-center">
                             <div className="flex space-x-2">
